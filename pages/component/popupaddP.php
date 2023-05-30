@@ -8,7 +8,7 @@
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                               </div>
                               <div class="modal-body">
-                                <form method="POST" action="addpersediaan.php" enctype="multipart/form-data">
+                                <form method="POST" action="addpersediaan.php" enctype="multipart/form-data" id="formAdd">
                                   <div class="">
                                     <label for="recipient-name" class="col-form-label">Nama Gudang</label>
                                     <select class="form-select" aria-label="Default select example" name="gudang">
@@ -24,7 +24,7 @@
                                   </div>
                                   <div class="">
                                     <label for="recipient-name" class="col-form-label">Nama Ikan</label>
-                                    <select class="form-select" aria-label="Default select example" name="ikan" onchange="">
+                                    <select class="form-select" aria-label="Default select example" name="ikan">
                                     <?php
                                     include 'conixion.php';
                                     $statement = $con -> prepare("SELECT * FROM ikan order by nama_ikan asc");
@@ -43,11 +43,11 @@
                                     <label for="dateInput" class="col-form-label">Tanggal Masuk</label>
                                     <input type="date" class="form-control" id="dateInput" name="dateInput">
                                   </div>
-                                  
+                
                                   
                                   <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                <button type="submit" name="submitG" class="btn btn-primary">Tambah Gudang</button>
+                                <button type="submit" name="submitP" class="btn btn-primary">Tambah Gudang</button>
                               </div>
                                 </form>
                               </div>

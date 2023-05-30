@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>studens_list</title>
+    <title>PERSEDIAAN GUDANG</title>
     <link rel="stylesheet" href="../css/bootstrap.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
@@ -66,7 +66,7 @@
                                 <td><?php echo $value['tgl_masuk'] ?></td>
                                 <td><?php echo $value['tgl_keluar'] ?></td>
                                 <td class="d-md-flex gap-3 mt-3">
-                                  <a href="modifiP.php?id_persediaan=<?php echo $value['id_persediaan']?>"><i class="far fa-pen"></i></a>
+                                  <a href="modifP.php?id_persediaan=<?php echo $value['id_persediaan']?>"><i class="far fa-pen"></i></a>
                                   <a href="removeP.php?id_persediaan=<?php echo $value['id_persediaan']?>"><i class="far fa-trash"></i></a>
                                 </td>
                         </tr> 

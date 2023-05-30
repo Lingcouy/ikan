@@ -5,15 +5,13 @@
                 <i class="far fa-times h4 me-3 close align-self-end d-md-none"></i>
             </div>
             <div class="img-admin d-flex flex-column align-items-center text-center gap-2">
-                <img class="rounded-circle" src="../assets/img/img-admin.jpeg" alt="img-admin" height="120" width="120">
+                <img class="rounded-circle" src="../assets/img/bg.jpg" alt="img-admin" height="120" width="120">
                 <h2 class="h6 fw-bold">Hello <?php echo $_SESSION['name']; ?></h2>
             </div>
             <div class=" bg-list d-flex flex-column align-items-center fw-bold gap-2 mt-4 ">
                 <ul class="d-flex flex-column list-unstyled">
                         <li class="h7"><a class="nav-link text-dark" href="dashboard.php"><i
                             class="fal fa-home-lg-alt me-2"></i> <span>Home</span></a></li>
-                    <li class="h7"><a class=" nav-link text-dark" href="students_list.php"><i
-                                class="far fa-graduation-cap me-2"></i> <span>Student</span></a></li>
                     <li class="h7"><a class=" nav-link text-dark" href="gudang_list.php"><i class="fas fa-warehouse me-2"></i> <span>Gudang</span></a></li>
                     <li class="h7"><a class=" nav-link text-dark" href="persediaan_list.php"><i class="fad fa-boxes me-2"></i> <span>Persediaan Gudang</span></a></li>
                     <li class="h7"><a class=" nav-link text-dark" href="ikan_list.php"><i class="fas fa-fish me-2"></i> <span>Ikan</span></a></li>
